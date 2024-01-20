@@ -37,7 +37,7 @@ function App() {
       <BrowserRouter basename='/MMC'>
         <NavBar/>
         <Routes>
-          <Route exact path="/MMC" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="donate" element={<Donate />} />
           <Route path="contact" element={<Contact />} />
           <Route path="recruiting" element={<Recruiting />} />
