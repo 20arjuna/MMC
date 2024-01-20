@@ -1,7 +1,7 @@
 {
   "name": "frontend",
   "version": "0.1.0",
-  "homepage": "https://20arjuna.github.io/",
+  "homepage": "https://20arjuna.github.io/MMC/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.3",
