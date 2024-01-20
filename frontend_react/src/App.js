@@ -36,7 +36,7 @@ function App() {
     <div>
       <NavBar/>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/MMC" element={<Home />} />
         <Route path="donate" element={<Donate />} />
         <Route path="contact" element={<Contact />} />
         <Route path="recruiting" element={<Recruiting />} />
