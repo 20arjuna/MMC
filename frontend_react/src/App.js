@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/navbar';
-import { Routes, Route, HashRouter } from 'react-router-dom';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import Home from './components/home';
 import Donate from './components/donate';
 import Contact from './components/contact';
@@ -34,10 +34,10 @@ function App() {
     
     <ThemeProvider theme={theme}>
     <div>
-      <HashRouter>
+      <BrowserRouter basename='/MMC'>
         <NavBar/>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route exact path="/MMC" element={<Home />} />
           <Route path="donate" element={<Donate />} />
           <Route path="contact" element={<Contact />} />
           <Route path="recruiting" element={<Recruiting />} />
@@ -46,7 +46,7 @@ function App() {
           <Route path="roster" element={<Roster />} />
         </Routes>
         <Footer/>
-      </HashRouter>
+      </BrowserRouter>
     </div>
     </ThemeProvider>
    
