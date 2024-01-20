@@ -40,7 +40,7 @@ function NavBar(props) {
             {/* <Typography variant="h6" sx={{ my: 2}}>
             Mui
             </Typography> */}
-            <Link to='/'>
+            <Link to='/MMC'>
                 <img
                     src={marylandImage}
                     alt="Adb Logo"
@@ -84,7 +84,7 @@ function NavBar(props) {
                 <MenuIcon />
             </IconButton>
             
-            <Link to="/">
+            <Link to="/MMC">
                 <img
                     src={menscrew}
                     alt="Adb Logo"
